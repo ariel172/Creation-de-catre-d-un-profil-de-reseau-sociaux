@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+.container-parent{
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container{
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  
+}
+
+.name{
+  
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.city{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.description {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.container-social{
+    display: flex;
+   flex-direction: column;
+    gap: 10px;
+}
+.container-social a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-social a:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
